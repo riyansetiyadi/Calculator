@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	color: #b4b4b4;
+	margin: 0px;
+	background-color: #18191a;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+header {
+	display: inline;
+}
+
+nav {
+	background-color: #2d2f30;
+	padding: 2px;
+	position: sticky;
+	top: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+}
+
+nav ul {
+	padding: 0px;
+}
+
+nav > ul > li > a {
+  	text-decoration: none;
+  	color: #f3f3f3;
+  	background: #444444;
+  	padding: 10px 15px;
+  	border-radius: 5px;
+}
+ 
+nav > ul > li > a:hover {
+  	background: #f3f3f3;
+  	color: #444444;
+}
+
+nav a:hover {
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+.kartu {
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+   	border-radius: 5px;
+	padding: 20px;
+   	margin-top: 20px;
+}
+
+.background {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+
+.background div {
+	padding-left: 20px;
+}
+
+#content {
+   	float: left;
+   	width: 75%;
+}
+
+aside {
+   	float: right;
+   	width: 25%;
+   	padding-left: 20px;
+	font-size: 15px;
+}
+
+#foto-profil {
+	max-width: 200px;
+	display: block; 
+	margin: auto;
+}
+
+#tabel-profil {
+	margin: auto;
+}
+
+
+footer {
+   	padding: 15px;
+   	background-color: #2d2f30;
+   	text-align: center;
+   	font-weight: bold;
+}
+
+.background img {
+	width: 100%;
+}
+
+#pendidikan p {
+   	float: right;
+   	width: 60%;
+   	padding-left: 50px;
+	font-size: 15px;
+}
+
+#pendidikan .img {
+   	float: left;
+   	padding-left: 40px;
+   	width: 40%;
+}
+
+.rata {
+   	padding: 20px;
+   	overflow: auto;
+}
+
+.img img {
+	width: 30%;
+}
+
+#keterampilan {
+	text-align: center;
+	width: 100%;
+}
+
+.kontak img {
+	width: 40px;
+}
+
+.kontak ul {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.kontak li {
+	padding-bottom: 20px;
+  	display: flex;
+  	align-items: center;
+	padding-right: 0px;
+}
+
+.kontak a {
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+   	#content,
+   	aside, 
+	#pendidikan p,
+	#pendidikan .img {
+       		width: 100%;
+       		padding: 0;
+   	}
+
+	#pendidikan p,
+	#pendidikan .img {
+		text-align: center;
+	}
+	
+	.kontak li {
+		display: inline;
+	}
+
+	nav > ul > li > a {
+		padding: 5px 10px;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	.kontak li {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.background{
+		font-size: 30px;
+}
